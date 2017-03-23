@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9ca318bf-a406-47f9-a8d7-f4b2c4453f7a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Alex</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\repos\Negative Infinity Note\Negative Infinity Note\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.exe">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.exe">
       <PackagePath>entrypoint\Negative Infinity Note.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\Microsoft.AspNetCore.Hosting.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Abstractions.dll">
@@ -448,47 +448,47 @@
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.xr.xml">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.xr.xml">
       <PackagePath>Negative Infinity Note.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\Negative Infinity Note.exe">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\Negative Infinity Note.exe">
       <PackagePath>Negative Infinity Note.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

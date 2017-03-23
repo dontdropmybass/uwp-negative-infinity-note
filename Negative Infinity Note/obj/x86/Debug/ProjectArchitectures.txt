@@ -1,1 +1,1 @@
-D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Negative Infinity Note.csproj;x86
+D:\repos\Negative Infinity Note\Negative Infinity Note\Negative Infinity Note.csproj;x86

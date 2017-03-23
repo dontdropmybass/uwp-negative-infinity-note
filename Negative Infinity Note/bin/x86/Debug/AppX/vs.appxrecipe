@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9ca318bf-a406-47f9-a8d7-f4b2c4453f7a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Alex</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\repos\Negative Infinity Note\Negative Infinity Note\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-22T21:03:07.635</Modified>
+      <Modified>2017-03-23T01:22:40.491</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.exe">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.exe">
       <PackagePath>entrypoint\Negative Infinity Note.exe</PackagePath>
-      <Modified>2017-03-22T21:03:06.780</Modified>
+      <Modified>2017-03-23T01:22:40.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\Microsoft.AspNetCore.Hosting.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Abstractions.dll">
       <PackagePath>Microsoft.AspNetCore.Hosting.Abstractions.dll</PackagePath>
@@ -600,60 +600,60 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T02:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-03-22T17:16:53.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.xr.xml">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.xr.xml">
       <PackagePath>Negative Infinity Note.xr.xml</PackagePath>
-      <Modified>2017-03-22T20:44:33.603</Modified>
+      <Modified>2017-03-23T01:21:48.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-02-28T16:44:36.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-22T21:03:07.417</Modified>
+      <Modified>2017-03-23T01:21:52.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\uwp-zero-note\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\Negative Infinity Note.exe">
+    <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\Negative Infinity Note.exe">
       <PackagePath>Negative Infinity Note.exe</PackagePath>
-      <Modified>2017-03-22T21:03:07.632</Modified>
+      <Modified>2017-03-23T01:22:40.487</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

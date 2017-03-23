@@ -19,7 +19,7 @@ namespace Negative_Infinity_Note
     }
 
     // Basic Db CRUD manager for Notes SQLite database
-    static class NoteDBManager
+    public static class NoteDBManager
     {
         public static void Create(Note note)
         {

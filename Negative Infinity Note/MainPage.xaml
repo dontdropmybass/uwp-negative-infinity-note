@@ -24,6 +24,9 @@
             <AppBarButton x:Name="EditButton" Icon="Edit" ToolTipService.ToolTip="Edit Current Note" Label="Edit" Click="EditButton_Click"/>
             <AppBarButton x:Name="SaveButton" Icon="Save" ToolTipService.ToolTip="Save Current Note" Label="Save" Click="SaveButton_Click"/>
             <AppBarButton x:Name="DeleteButton" Icon="Delete" ToolTipService.ToolTip="Delete Current Note" Label="Delete" Click="DeleteButton_Click"/>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="AboutButton" Icon="ThreeBars" ToolTipService.ToolTip="Click here to see a cool about window" Label="About" Click="AboutButton_Click"/>
+            </CommandBar.SecondaryCommands>
         </CommandBar>
     </Page.TopAppBar>
     <Page.Content>

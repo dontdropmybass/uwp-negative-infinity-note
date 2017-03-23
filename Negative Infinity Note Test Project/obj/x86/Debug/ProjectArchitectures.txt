@@ -1,0 +1,2 @@
+D:\repos\Negative Infinity Note\Negative Infinity Note Test Project\Negative Infinity Note Test Project.csproj;x86
+D:\repos\Negative Infinity Note\Negative Infinity Note\Negative Infinity Note.csproj;x86

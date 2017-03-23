@@ -24,6 +24,9 @@
             <AppBarButton x:ConnectionId='3' x:Name="EditButton" Icon="Edit" ToolTipService.ToolTip="Edit Current Note" Label="Edit"                         />
             <AppBarButton x:ConnectionId='4' x:Name="SaveButton" Icon="Save" ToolTipService.ToolTip="Save Current Note" Label="Save"                         />
             <AppBarButton x:ConnectionId='5' x:Name="DeleteButton" Icon="Delete" ToolTipService.ToolTip="Delete Current Note" Label="Delete"                           />
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='6' x:Name="AboutButton" Icon="ThreeBars" ToolTipService.ToolTip="Click here to see a cool about window" Label="About"                          />
+            </CommandBar.SecondaryCommands>
         </CommandBar>
     </Page.TopAppBar>
     <Page.Content>
@@ -36,16 +39,16 @@
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <TextBox x:ConnectionId='6' x:Name="SearchBox" Text="{Binding Filter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Background="White" Margin="5" Grid.Column="0" Grid.Row="0" ToolTipService.ToolTip="Search For Note Titles"/>
-            <ListView x:ConnectionId='7' x:Name="NoteList" Background="LightGray" Margin="5" Grid.Column="0" Grid.Row="1" ItemTemplate="{StaticResource NoteTemplate}" SelectedItem="{Binding CurrentNote, Mode=TwoWay}" SelectionMode="Single" ToolTipService.ToolTip="A List of Notes"/>
-            <RichEditBox x:ConnectionId='8' x:Name="editor" Background="White" Margin="5" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" AcceptsReturn="True" ToolTipService.ToolTip="Edit your text in this box"/>
+            <TextBox x:ConnectionId='7' x:Name="SearchBox" Text="{Binding Filter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Background="White" Margin="5" Grid.Column="0" Grid.Row="0" ToolTipService.ToolTip="Search For Note Titles"/>
+            <ListView x:ConnectionId='8' x:Name="NoteList" Background="LightGray" Margin="5" Grid.Column="0" Grid.Row="1" ItemTemplate="{StaticResource NoteTemplate}" SelectedItem="{Binding CurrentNote, Mode=TwoWay}" SelectionMode="Single" ToolTipService.ToolTip="A List of Notes"/>
+            <RichEditBox x:ConnectionId='9' x:Name="editor" Background="White" Margin="5" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" AcceptsReturn="True" ToolTipService.ToolTip="Edit your text in this box"/>
         </Grid>
     </Page.Content>
     <Page.BottomAppBar>
-        <CommandBar x:ConnectionId='9' x:Name="BottomCommandBar">
-            <AppBarButton x:ConnectionId='10' x:Name="BoldButton" Icon="Bold" ToolTipService.ToolTip="Bold Text"                          Label="Bold"/>
-            <AppBarButton x:ConnectionId='11' x:Name="ItalicButton" Icon="Italic" ToolTipService.ToolTip="Italicize Text"                            Label="Italic"/>
-            <AppBarButton x:ConnectionId='12' x:Name="UnderlineButton" Icon="Underline" ToolTipService.ToolTip="Underline Text"                               Label="Underline"/>
+        <CommandBar x:ConnectionId='10' x:Name="BottomCommandBar">
+            <AppBarButton x:ConnectionId='11' x:Name="BoldButton" Icon="Bold" ToolTipService.ToolTip="Bold Text"                          Label="Bold"/>
+            <AppBarButton x:ConnectionId='12' x:Name="ItalicButton" Icon="Italic" ToolTipService.ToolTip="Italicize Text"                            Label="Italic"/>
+            <AppBarButton x:ConnectionId='13' x:Name="UnderlineButton" Icon="Underline" ToolTipService.ToolTip="Underline Text"                               Label="Underline"/>
         </CommandBar>
     </Page.BottomAppBar>
 </Page>

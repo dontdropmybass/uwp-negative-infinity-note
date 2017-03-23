@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Negative_Infinity_Note.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Negative_Infinity_Note"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#283981">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="100" TextAlignment="Center" Margin="10" Text="ALEX" FontFamily="Akzidenz-Grotesk BQ" Foreground="White"/>
+        <Button x:ConnectionId='1' Content="Close" FontSize="25" Foreground="White" Height="140" Width="140" HorizontalAlignment="Right"                     />
+        <Grid Background="Red" Grid.Row="1"/>
+        <TextBlock TextWrapping="WrapWholeWords" FontSize="50" TextAlignment="Left" Grid.Row="2" Margin="25" Foreground="White" FontFamily="Lato Black">An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, "I can't do it. I just can't do it. It's inappropriate. It's not nice." I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was. It could be Russia, but it could also be China. It could also be lots of other people. It also could be some wordsmith sitting on their bed that weights 400 pounds. Ok? My text is long and beautiful, as, it has been well documented, are various other parts of my website. Look at these words. Are they small words? And he referred to my words - if they're small, something else must be small. I guarantee you there's no problem, I guarantee.</TextBlock>
+    </Grid>
+</Page>
+

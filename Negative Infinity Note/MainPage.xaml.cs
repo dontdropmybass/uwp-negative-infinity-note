@@ -207,5 +207,10 @@ namespace Negative_Infinity_Note
                 Notes = NoteDBManager.Read();
             }
         }
+
+        private void AboutButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(AboutPage));
+        }
     }
 }
