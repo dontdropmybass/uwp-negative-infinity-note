@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+﻿using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
 using Negative_Infinity_Note;
 
 namespace Negative_Infinity_Note_Test_Project

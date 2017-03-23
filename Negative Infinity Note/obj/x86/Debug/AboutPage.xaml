@@ -9,14 +9,16 @@
 
     <Grid Background="#283981">
         <Grid.RowDefinitions>
-            <RowDefinition Height="9*"/>
+            <RowDefinition Height="5*"/>
             <RowDefinition Height="5"/>
-            <RowDefinition Height="60*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20*"/>
         </Grid.RowDefinitions>
-        <TextBlock FontSize="100" TextAlignment="Center" Margin="10" Text="ALEX" FontFamily="Akzidenz-Grotesk BQ" Foreground="White"/>
+        <TextBlock FontSize="100" TextAlignment="Center" Margin="25" Text="ALEX" FontFamily="Akzidenz-Grotesk BQ" Foreground="White"/>
         <Button x:ConnectionId='1' Content="Close" FontSize="25" Foreground="White" Height="140" Width="140" HorizontalAlignment="Right"                     />
         <Grid Background="Red" Grid.Row="1"/>
-        <TextBlock TextWrapping="WrapWholeWords" FontSize="50" TextAlignment="Left" Grid.Row="2" Margin="25" Foreground="White" FontFamily="Lato Black">An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, "I can't do it. I just can't do it. It's inappropriate. It's not nice." I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was. It could be Russia, but it could also be China. It could also be lots of other people. It also could be some wordsmith sitting on their bed that weights 400 pounds. Ok? My text is long and beautiful, as, it has been well documented, are various other parts of my website. Look at these words. Are they small words? And he referred to my words - if they're small, something else must be small. I guarantee you there's no problem, I guarantee.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="50" TextAlignment="Center" Grid.Row="2" Margin="25" Foreground="White" FontFamily="Lato Black">Version 18.relieved.138.12.pickle.1436966326.7</TextBlock>
+        <TextBlock TextWrapping="WrapWholeWords" FontSize="50" TextAlignment="Left" Grid.Row="3" Margin="25" Foreground="White" FontFamily="Lato Black">An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, "I can't do it. I just can't do it. It's inappropriate. It's not nice." I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was. It could be Russia, but it could also be China. It could also be lots of other people. It also could be some wordsmith sitting on their bed that weights 400 pounds. Ok? My text is long and beautiful, as, it has been well documented, are various other parts of my website. Look at these words. Are they small words? And he referred to my words - if they're small, something else must be small. I guarantee you there's no problem, I guarantee.</TextBlock>
     </Grid>
 </Page>
 

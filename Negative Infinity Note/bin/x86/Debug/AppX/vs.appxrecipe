@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T01:22:40.491</Modified>
+      <Modified>2017-03-23T13:40:56.448</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.exe">
       <PackagePath>entrypoint\Negative Infinity Note.exe</PackagePath>
-      <Modified>2017-03-23T01:22:40.091</Modified>
+      <Modified>2017-03-23T13:40:55.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\Microsoft.AspNetCore.Hosting.Abstractions\1.1.1\lib\netstandard1.3\Microsoft.AspNetCore.Hosting.Abstractions.dll">
       <PackagePath>Microsoft.AspNetCore.Hosting.Abstractions.dll</PackagePath>
@@ -432,9 +432,9 @@
       <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2016-11-05T07:56:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Private.DataContractSerialization\4.1.1\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Private.DataContractSerialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2016-06-12T02:14:10.000</Modified>
+      <Modified>2017-02-09T17:26:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Private.ServiceModel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
@@ -484,17 +484,17 @@
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
       <Modified>2016-11-05T07:57:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Runtime.Serialization.Json\4.0.2\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Runtime.Serialization.Json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2016-06-12T02:14:30.000</Modified>
+      <Modified>2017-02-09T17:26:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Runtime.Serialization.Primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
       <Modified>2016-06-12T02:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Runtime.Serialization.Xml\4.1.1\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Runtime.Serialization.Xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2016-06-12T02:14:30.000</Modified>
+      <Modified>2017-02-09T17:26:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\.nuget\packages\System.Runtime.WindowsRuntime\4.3.0\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
@@ -640,7 +640,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.xr.xml">
       <PackagePath>Negative Infinity Note.xr.xml</PackagePath>
-      <Modified>2017-03-23T01:21:48.368</Modified>
+      <Modified>2017-03-23T13:40:55.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -649,11 +649,11 @@
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T01:21:52.289</Modified>
+      <Modified>2017-03-23T13:40:56.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Core\Negative Infinity Note.exe">
       <PackagePath>Negative Infinity Note.exe</PackagePath>
-      <Modified>2017-03-23T01:22:40.487</Modified>
+      <Modified>2017-03-23T13:40:56.438</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

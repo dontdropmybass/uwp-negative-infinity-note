@@ -1,19 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
-using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.Controls; 
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -24,13 +15,16 @@ namespace Negative_Infinity_Note
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        string Filter;
         private bool _isNew = false;
         Note CurrentNote;
         ObservableCollection<Note> Notes;
+
         public MainPage()
         {
+            Filter = "";
             InitializeComponent();
-            Notes = NoteDBManager.Read();
+            Notes = NoteDBManager.Read(Filter);
             NoteList.ItemsSource = Notes;
             NoteList.SelectionChanged += NoteList_SelectionChanged;
             EditButton.IsEnabled = false;
@@ -134,15 +128,25 @@ namespace Negative_Infinity_Note
                 BoldButton.IsEnabled = false;
                 ItalicButton.IsEnabled = false;
                 UnderlineButton.IsEnabled = false;
+                Notes = NoteDBManager.Read(Filter);
+                NoteList.ItemsSource = Notes;
             }
         }
 
-        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        private async void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            
-            if (true) // TODO: replace once confirm dialog is in place
+            ContentDialog deleteFileDialog = new ContentDialog()
             {
-                Notes.Remove(CurrentNote);
+                Title = "Delete note "+CurrentNote.Title,
+                Content = "Are you sure you want to delete "+CurrentNote.Title+"?",
+                PrimaryButtonText = "Yes",
+                SecondaryButtonText = "No"
+            };
+
+            ContentDialogResult result = await deleteFileDialog.ShowAsync();
+
+            if (result == ContentDialogResult.Primary) // TODO: replace once confirm dialog is in place
+            {
                 NoteDBManager.Delete(CurrentNote);
                 EditButton.IsEnabled = false;
                 editor.IsEnabled = false;
@@ -150,7 +154,20 @@ namespace Negative_Infinity_Note
                 BoldButton.IsEnabled = false;
                 ItalicButton.IsEnabled = false;
                 UnderlineButton.IsEnabled = false;
-                Notes = NoteDBManager.Read();
+                
+                ContentDialog deletedFileDialog = new ContentDialog()
+                {
+                    Title = "Deleted note " + CurrentNote.Title,
+                    Content = "Deleted note " + CurrentNote.Title,
+                    PrimaryButtonText = "Ok"
+                };
+
+                await deletedFileDialog.ShowAsync();
+
+                Notes = NoteDBManager.Read(Filter);
+                NoteList.ItemsSource = Notes;
+                NoteList.SelectedItem = null;
+                CurrentNote = null;
             }
             
         }
@@ -165,12 +182,14 @@ namespace Negative_Infinity_Note
             BoldButton.IsEnabled = false;
             ItalicButton.IsEnabled = false;
             UnderlineButton.IsEnabled = false;
+
             if (CurrentNote == null)
             {
                 editor.Document.SetText(Windows.UI.Text.TextSetOptions.FormatRtf, "");
                 DeleteButton.IsEnabled = false;
                 return;
             }
+
             using (var memory = new InMemoryRandomAccessStream())
             {
                 var dataWriter = new DataWriter(memory);
@@ -204,13 +223,20 @@ namespace Negative_Infinity_Note
                 {
                     NoteDBManager.Update(CurrentNote);
                 }
-                Notes = NoteDBManager.Read();
+                Notes = NoteDBManager.Read(Filter);
             }
         }
 
         private void AboutButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(AboutPage));
+        }
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Filter = SearchBox.Text;
+            Notes = NoteDBManager.Read(Filter);
+            NoteList.ItemsSource = Notes;
         }
     }
 }

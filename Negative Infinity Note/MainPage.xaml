@@ -9,7 +9,7 @@
     <Page.Resources>
         <DataTemplate x:Key="NoteTemplate">
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="{Binding Title}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBlock Text="{Binding Title}" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTipService.ToolTip="{Binding Title}" AutomationProperties.HelpText="Click to load note"/>
             </StackPanel>
         </DataTemplate>
     </Page.Resources>
@@ -17,15 +17,15 @@
         <CommandBar>
             <CommandBar.Content>
                 <Grid>
-                    <TextBlock Name="TitleArea" Text="{Binding CurrentNote.Title}" FontSize="32" Margin="5,0"/>
+                    <TextBlock Name="TitleArea" Text="{Binding CurrentNote.Title}" ToolTipService.ToolTip="{Binding CurrentNote.Title}" AutomationProperties.HelpText="This is the note title area" FontSize="32" Margin="5,0"/>
                 </Grid>
             </CommandBar.Content>
-            <AppBarButton x:Name="AddButton" Icon="Add" ToolTipService.ToolTip="Add New Note" Label="Add" Click="AddButton_Click"/>
-            <AppBarButton x:Name="EditButton" Icon="Edit" ToolTipService.ToolTip="Edit Current Note" Label="Edit" Click="EditButton_Click"/>
-            <AppBarButton x:Name="SaveButton" Icon="Save" ToolTipService.ToolTip="Save Current Note" Label="Save" Click="SaveButton_Click"/>
-            <AppBarButton x:Name="DeleteButton" Icon="Delete" ToolTipService.ToolTip="Delete Current Note" Label="Delete" Click="DeleteButton_Click"/>
+            <AppBarButton x:Name="AddButton" Icon="Add" ToolTipService.ToolTip="Add New Note" Label="Add" Click="AddButton_Click" AutomationProperties.HelpText="Click this to add a new note"/>
+            <AppBarButton x:Name="EditButton" Icon="Edit" ToolTipService.ToolTip="Edit Current Note" Label="Edit" Click="EditButton_Click" AutomationProperties.HelpText="Click this to edit the current note"/>
+            <AppBarButton x:Name="SaveButton" Icon="Save" ToolTipService.ToolTip="Save Current Note" Label="Save" Click="SaveButton_Click" AutomationProperties.HelpText="Click this to save the current note"/>
+            <AppBarButton x:Name="DeleteButton" Icon="Delete" ToolTipService.ToolTip="Delete Current Note" Label="Delete" Click="DeleteButton_Click" AutomationProperties.HelpText="Click this to delete the current note"/>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:Name="AboutButton" Icon="ThreeBars" ToolTipService.ToolTip="Click here to see a cool about window" Label="About" Click="AboutButton_Click"/>
+                <AppBarButton x:Name="AboutButton" Icon="ThreeBars" ToolTipService.ToolTip="Show about page" Label="About" Click="AboutButton_Click" AutomationProperties.HelpText="Click here to see a cool about window"/>
             </CommandBar.SecondaryCommands>
         </CommandBar>
     </Page.TopAppBar>
@@ -39,16 +39,16 @@
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <TextBox x:Name="SearchBox" Text="{Binding Filter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Background="White" Margin="5" Grid.Column="0" Grid.Row="0" ToolTipService.ToolTip="Search For Note Titles"/>
-            <ListView x:Name="NoteList" Background="LightGray" Margin="5" Grid.Column="0" Grid.Row="1" ItemTemplate="{StaticResource NoteTemplate}" SelectedItem="{Binding CurrentNote, Mode=TwoWay}" SelectionMode="Single" ToolTipService.ToolTip="A List of Notes"/>
-            <RichEditBox x:Name="editor" Background="White" Margin="5" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" AcceptsReturn="True" ToolTipService.ToolTip="Edit your text in this box"/>
+            <TextBox x:Name="SearchBox" Text="{Binding Filter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Background="White" Margin="5" Grid.Column="0" Grid.Row="0" ToolTipService.ToolTip="Search For Note Titles" TextChanged="SearchBox_TextChanged" AutomationProperties.HelpText="Use this to search for notes. Type in something to try to match to a title!"/>
+            <ListView x:Name="NoteList" Background="LightGray" Margin="5" Grid.Column="0" Grid.Row="1" ItemTemplate="{StaticResource NoteTemplate}" SelectedItem="{Binding CurrentNote, Mode=TwoWay}" SelectionMode="Single" ToolTipService.ToolTip="A List of Notes" AutomationProperties.HelpText="This is a list of things. Read them, click on them."/>
+            <RichEditBox x:Name="editor" Background="White" Margin="5" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" AcceptsReturn="True" ToolTipService.ToolTip="Edit your text in this box" AutomationProperties.HelpText="Type your text in here. Click the bold, italic, and underline buttons on the bottom to change the text."/>
         </Grid>
     </Page.Content>
     <Page.BottomAppBar>
         <CommandBar x:Name="BottomCommandBar">
-            <AppBarButton x:Name="BoldButton" Icon="Bold" ToolTipService.ToolTip="Bold Text" Click="BoldButton_Click" Label="Bold"/>
-            <AppBarButton x:Name="ItalicButton" Icon="Italic" ToolTipService.ToolTip="Italicize Text" Click="ItalicButton_Click" Label="Italic"/>
-            <AppBarButton x:Name="UnderlineButton" Icon="Underline" ToolTipService.ToolTip="Underline Text" Click="UnderlineButton_Click" Label="Underline"/>
+            <AppBarButton x:Name="BoldButton" Icon="Bold" ToolTipService.ToolTip="Bold Text" Click="BoldButton_Click" Label="Bold" AutomationProperties.HelpText="Click this to make the text bold"/>
+            <AppBarButton x:Name="ItalicButton" Icon="Italic" ToolTipService.ToolTip="Italicize Text" Click="ItalicButton_Click" Label="Italic" AutomationProperties.HelpText="Click this to make the text italic"/>
+            <AppBarButton x:Name="UnderlineButton" Icon="Underline" ToolTipService.ToolTip="Underline Text" Click="UnderlineButton_Click" Label="Underline" AutomationProperties.HelpText="Click this to underline the text"/>
         </CommandBar>
     </Page.BottomAppBar>
 </Page>
