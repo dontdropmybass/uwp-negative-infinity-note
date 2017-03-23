@@ -34,11 +34,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note Test Project\bin\x86\Debug\Negative Infinity Note Test Project.exe">
       <PackagePath>entrypoint\Negative Infinity Note Test Project.exe</PackagePath>
-      <Modified>2017-03-23T11:57:01.678</Modified>
+      <Modified>2017-03-23T14:07:51.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.exe">
       <PackagePath>Negative Infinity Note.exe</PackagePath>
-      <Modified>2017-03-23T02:03:27.716</Modified>
+      <Modified>2017-03-23T14:03:30.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
@@ -740,7 +740,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note\bin\x86\Debug\Negative Infinity Note.xr.xml">
       <PackagePath>Negative Infinity Note.xr.xml</PackagePath>
-      <Modified>2017-03-23T01:21:48.368</Modified>
+      <Modified>2017-03-23T13:40:55.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -749,7 +749,7 @@
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note Test Project\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-23T11:57:03.234</Modified>
+      <Modified>2017-03-23T14:07:53.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\repos\Negative Infinity Note\Negative Infinity Note Test Project\bin\x86\Debug\Core\Negative Infinity Note Test Project.exe">
       <PackagePath>Negative Infinity Note Test Project.exe</PackagePath>
